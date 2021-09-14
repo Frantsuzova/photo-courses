@@ -1,0 +1,22 @@
+.photocourse__content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: $mainpadding;
+  padding-bottom: $mainpadding;
+  grid-column-gap: 76px;
+  max-width: $main-blok-width;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@include breakpoint('photocourse__content', $tablet) {
+  grid-template-columns: 1fr;
+  max-width: 768px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@include breakpoint('photocourse__content', $mobile) {
+  max-width: 300px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}

@@ -1,0 +1,23 @@
+.action__title {
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 120px;
+  margin: 0;
+  color: $secondtextcolor;
+}
+
+@include breakpoint('action__title', $tablet) {
+  font-size: 100px;
+  line-height: 100px;
+}
+
+
+@include breakpoint('action__title', $smalltablet) {
+  font-size: 80px;
+  line-height: 80px;
+}
+
+@include breakpoint('action__title', $mobile) {
+  font-size: 48px;
+  line-height: 50px;
+}

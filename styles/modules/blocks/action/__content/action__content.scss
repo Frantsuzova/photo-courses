@@ -1,0 +1,13 @@
+.action__content {
+  display: flex;
+  flex-direction: row;
+  max-width: $main-blok-width;
+  margin: 0 auto;
+}
+
+@include breakpoint('action__content', $tablet) {
+  max-width: 768px;
+}
+@include breakpoint('action__content', $mobile) {
+  max-width: 300px;
+}

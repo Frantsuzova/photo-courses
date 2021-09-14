@@ -1,0 +1,17 @@
+.header__icon-menu {
+  display: none;
+
+  cursor: pointer;
+  transition: all 1s ease-out;
+}
+
+.header__icon-menu:hover {
+  transform: scale(1.1);
+
+}
+
+@include breakpoint('header__icon-menu', $tablet) {
+  display: flex;
+  margin: 0;
+}
+

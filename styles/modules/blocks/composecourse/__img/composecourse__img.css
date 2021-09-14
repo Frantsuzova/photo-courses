@@ -1,0 +1,14 @@
+.composecourse__img {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .composecourse__img {
+    grid-row: 3;
+  }
+}
+@media screen and (max-width: 400px) {
+  .composecourse__img {
+    grid-row: 4;
+  }
+}/*# sourceMappingURL=composecourse__img.css.map */

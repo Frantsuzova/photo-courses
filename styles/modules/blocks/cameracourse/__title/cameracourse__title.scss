@@ -1,0 +1,27 @@
+.cameracourse__title {
+  font-weight: 400;
+  font-size: 122px;
+  line-height: 123px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-top: $mainpadding;
+}
+
+@include breakpoint('cameracourse__title', $tablet) {
+  padding-top: 40px;
+  grid-row: 3;
+}
+
+@include breakpoint('cameracourse__title', $smalltablet) {
+  font-size: 80px;
+  line-height: 80px;
+}
+
+@include breakpoint('cameracourse__title', $mobile) {
+  padding-top: 30px;
+  font-size: 48px;
+  line-height: 56px;
+}

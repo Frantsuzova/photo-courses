@@ -1,0 +1,26 @@
+.hearer__arrow {
+  padding-top: 22px;
+  padding-bottom: 22px;
+  cursor: pointer;
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.hearer__arrow:hover{
+  animation: rotate 1s linear infinite
+}
+@keyframes rotate{
+  100%{
+   transform: rotate(360deg)
+  }
+}
+
+@include breakpoint('hearer__arrow', $tablet) {
+  max-width: 36px;
+  max-height: 36px;
+}
+@include breakpoint('hearer__arrow', $mobile) {
+  max-width: 30px;
+  max-height: 30px;
+  z-index: 0;
+}

@@ -1,0 +1,11 @@
+.composecourse__line{
+  display: none;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #000000;
+}
+
+@include breakpoint('composecourse__line', $mobile) {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+}

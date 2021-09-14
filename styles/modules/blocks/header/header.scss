@@ -1,0 +1,12 @@
+.header {
+  background: $headercolor;
+  padding: 0 $mainpadding 0 $mainpadding;
+}
+
+@include breakpoint('header', $tablet) {
+  padding: 0 36px 0 36px;
+}
+
+@include breakpoint('header', $mobile) {
+  padding: 0 $mobilepadding 0 $mobilepadding;
+}

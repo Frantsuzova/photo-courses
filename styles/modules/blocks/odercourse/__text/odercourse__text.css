@@ -1,0 +1,20 @@
+.odercourse__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 380px;
+  margin: 0;
+  padding-bottom: 148px;
+}
+
+@media screen and (max-width: 1023px) {
+  .odercourse__text {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .odercourse__text {
+    padding-bottom: 30px;
+  }
+}/*# sourceMappingURL=odercourse__text.css.map */

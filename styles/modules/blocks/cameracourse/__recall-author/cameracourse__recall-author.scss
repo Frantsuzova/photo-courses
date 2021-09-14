@@ -1,0 +1,13 @@
+.cameracourse__recall-author {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+@include breakpoint('cameracourse__recall-author', $mobile) {
+  font-size: 14px;
+  line-height: 20px;
+}
+

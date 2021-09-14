@@ -1,0 +1,15 @@
+.odercourse__info {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2;
+  grid-row: 3;
+  padding-top: 130px;
+  max-width: 380px;
+}
+
+@include breakpoint('odercourse__info', $tablet) {
+  grid-column: 1;
+  grid-row: 5;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}

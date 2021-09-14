@@ -1,0 +1,11 @@
+.footer {
+  background-color: $headercolor;
+  padding: 0 $mainpadding 0 $mainpadding;
+}
+
+@include breakpoint('footer', $tablet) {
+  padding: 0 40px 0 40px;
+}
+@include breakpoint('footer', $mobile) {
+  padding: 0 20px 0 20px;
+}

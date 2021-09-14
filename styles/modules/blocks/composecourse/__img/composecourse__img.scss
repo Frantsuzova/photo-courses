@@ -1,0 +1,17 @@
+.composecourse__img {
+  box-sizing: border-box;
+  max-width: 642px;
+  width: 100%;
+}
+
+@include breakpoint('composecourse__img', $midledesktop) {
+  width: 70%;
+}
+@include breakpoint('composecourse__img', $tablet) {
+  width: 100%;
+  grid-row:3;
+}
+@include breakpoint('composecourse__img', $mobile) {
+  grid-row:4;
+}
+

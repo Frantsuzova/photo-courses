@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <meta name="keywords" content="html, scss, grid, flex" />
+  <meta name="author" content="Анна Чижик" />
+  <title>Школа фотографии</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <div class="header__content">
+      <img class="hearer__arrow" alt="стрелочка логотипа" src="images/arrow-upper.svg">
+      <img class="header__icon-menu" alt="иконка разворота меню" src="images/menu.svg">
+      <nav class="header__menu ">
+        <div class="header__links">
+          <a class="header__links-decoration" href="#">Композиция</a>
+          <a class="header__links-decoration" href="#">Камера</a>
+          <a class="header__links-decoration" href="#">Поиск заказов</a>
+        </div>
+      </nav>
+    </div>
+    <div class="header__mobile">
+      <nav class="header__layout">
+        <a class="header__links-decoration" href="#">Композиция</a>
+        <a class="header__links-decoration" href="#">Камера</a>
+        <a class="header__links-decoration" href="#">Поиск заказов</a>
+      </nav>
+      <img class="header__close" src="images/close.svg" alt="закрыть">
+    </div>
+  </header>
+  <main>
+    <!--секция Курс по фотографии-->
+    <section class="photocourse">
+      <div class="photocourse__content">
+        <div class="photocourse__title">Курс по фотографии</div>
+        <p class="photocourse__description">
+          Фотография в природных условиях, уроки по композиции и по пользованию камерой.
+        </p>
+        <div class="photocourse__button action-button">
+          Подробнее
+        </div>
+        <img class="img photocourse__img" alt="фото с лесом" src="/images/1.jpg">
+      </div>
+    </section>
+    <!--секция Изучите композицию-->
+    <section class="composecourse">
+      <div class="composecourse__content">
+        <div class="composecourse__main-structure">
+          <div class="composecourse__line"></div>
+          <div class="course-type">Композиция</div>
+          <div class="composecourse__title">Изучите композицию</div>
+          <img class="img composecourse__img" alt="фото с лесом и дорогой" src="/images/2.jpg">
+          <div class="composecourse__description">
+            <p class="composecourse__goal">
+              Вы изучите гармоничное размещение всех элементов изображения на <b>снимке</b>.
+            </p>
+            <p class="composecourse__goal">
+              Изучите композицию интуитивную и какие-то определённые законы.
+            </p>
+          </div>
+          <div class="action-button">
+            Записаться!
+          </div>
+        </div>
+        <div class="composecourse__ideas">
+          <p class="composecourse__intro">
+            Правило третей, при котором нужно распологать объекты на пересечениях.
+          </p>
+          <p class="composecourse__intro">
+            Простота: убирай всё лишнее и кадрируй!
+          </p>
+          <p class="composecourse__intro">
+            Равновесие: уравновесь пятна объекта и фона.
+          </p>
+          <p class="composecourse__intro">
+            3D глубина кадра: расположи объект позади и перед другими предметами.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--секция Настройка Съемка Обработка-->
+    <section class="cameracourse">
+      <div class="cameracourse__content">
+        <div class="cameracourse__line"></div>
+        <div class="cameracourse__info">
+          <div>
+            <div class="course-type">Камера</div>
+            <div class="cameracourse__title">
+              <div class="cameracourse__text">Настройка</div>
+              <div class="cameracourse__text">Съемка</div>
+              <div class="cameracourse__text">Обработка</div>
+            </div>
+          </div>
+        </div>
+        <div class="cameracourse__recall-anons">отзывы про часть о камерах:</div>
+        <img class="img cameracourse__img" alt="фото с лесом и дорогой" src="/images/3.jpg">
+        <div class="cameracourse__recall-info-left">
+          <p class="cameracourse__recall">
+            на этом курсе я научился пользоватся камерой, как настоящий профессионал!
+          </p>
+          <p class="cameracourse__recall-author">Питер, водитель.</p>
+          <p class="cameracourse__recall-network">@piter123</p>
+        </div>
+        <div class="cameracourse__recall-info-right">
+          <p class="cameracourse__recall">
+            супер крутой курс! на части про фотики я стал разбираться в предназначении кнопок
+          </p>
+          <p class="cameracourse__recall-author">Джон, спортсмен.</p>
+          <p class="cameracourse__recall-network">@john_sport</p>
+        </div>
+      </div>
+    </section>
+    <!--секция Научим находить заказы!-->
+    <section class="odercourse">
+      <div class="odercourse__content">
+        <div class="odercourse__line"></div>
+        <div class="course-type">поиск заказов</div>
+        <h1 class="odercourse__title">Научим находить заказы!</h1>
+        <img class="odercourse__img" alt="фото с деревом и небом" src="/images/4.jpg">
+
+        <div class="odercourse__info">
+          <p class="odercourse__text">
+            Мы научим вас искать заказы на всяких фриланс биржах, а когда вы сделаете крутое портфолио, мы поможем найти
+            постоянную работу.
+          </p>
+          <div class="action-button">
+            Записаться!
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--секция Записаться!-->
+    <section class="action">
+      <div class="action__content">
+        <img class="action__img" alt="стрелка" src="/images/arrow-right.svg">
+        <div>
+          <div class="action__line"></div>
+          <div class="action__title">Записаться!</div>
+          <div class="action__title">Сейчас!</div>
+          <form id="email" method="post" onsubmit="return false">
+            <div class="action__submitform">
+              <input class="action__email" type="text" placeholder="Ваша почта" value="" id="useremail"
+                name="useremail">
+              <input class="action__submit-button" type="submit" value="Записаться!" id="email-submit"
+                name="email-submit">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <p class="footer__copyright">
+      2021 Photo-lessons.
+    </p>
+  </footer>
+  <script src="/script.js"></script>
+</body>
+
+</html>

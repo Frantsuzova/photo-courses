@@ -1,0 +1,18 @@
+.cameracourse__recall-info-right{
+  grid-column: 2;
+  grid-row: 3;
+  padding-top: 180px;
+  max-width: 642px;
+}
+
+@include breakpoint('cameracourse__recall-info-right', $desktop) {
+  max-width: 400px;
+}
+@include breakpoint('cameracourse__recall-info-right', $tablet) {
+  grid-column: 1;
+  padding-top: 60px;
+  grid-row: 7;
+}
+@include breakpoint('cameracourse__recall-info-right', $mobile) {
+  padding-top: 30px;
+}

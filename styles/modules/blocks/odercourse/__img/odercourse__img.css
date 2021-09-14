@@ -1,0 +1,16 @@
+.odercourse__img {
+  grid-column: 1;
+  margin: 0;
+  padding-top: 106px;
+}
+
+@media screen and (max-width: 1023px) {
+  .odercourse__img {
+    padding-top: 60px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .odercourse__img {
+    max-width: 280px;
+  }
+}/*# sourceMappingURL=odercourse__img.css.map */

@@ -1,0 +1,11 @@
+.photocourse{
+  background-color: $maincolor;
+  padding: 0 $mainpadding 0 $mainpadding;
+}
+
+@include breakpoint('photocourse', $tablet) {
+  padding: 0 36px 0 36px;
+}
+@include breakpoint('photocourse', $mobile) {
+  padding: 0 $mobilepadding 0 $mobilepadding;
+}

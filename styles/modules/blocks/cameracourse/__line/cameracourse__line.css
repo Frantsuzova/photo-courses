@@ -1,0 +1,14 @@
+.cameracourse__line {
+  display: none;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #FFF;
+}
+
+@media screen and (max-width: 400px) {
+  .cameracourse__line {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+  }
+}/*# sourceMappingURL=cameracourse__line.css.map */

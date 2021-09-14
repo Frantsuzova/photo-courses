@@ -1,0 +1,13 @@
+.header__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: $main-blok-width;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@include breakpoint('header__content', $tablet) {
+  max-width: 768px;
+  margin: 0;
+}

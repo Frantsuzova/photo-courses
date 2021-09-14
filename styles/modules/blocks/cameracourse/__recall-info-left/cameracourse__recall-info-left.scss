@@ -1,0 +1,21 @@
+.cameracourse__recall-info-left {
+  grid-column: 1;
+  padding-top: 180px;
+  max-width: 642px;
+}
+
+@include breakpoint('cameracourse__recall-info-left', $desktop) {
+  max-width: 400px;
+}
+
+@include breakpoint('cameracourse__recall-info-left', $tablet) {
+  border-bottom: 1px solid $maincolor;
+  padding-bottom: 60px;
+  grid-row: 6;
+}
+
+@include breakpoint('cameracourse__recall-info-left', $mobile) {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+

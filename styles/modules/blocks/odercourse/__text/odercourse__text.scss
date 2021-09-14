@@ -1,0 +1,17 @@
+.odercourse__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 380px;
+  margin: 0;
+  padding-bottom: 148px;
+}
+
+@include breakpoint('odercourse__text', $tablet) {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+@include breakpoint('odercourse__text', $mobile) {
+  padding-bottom: 30px;
+}

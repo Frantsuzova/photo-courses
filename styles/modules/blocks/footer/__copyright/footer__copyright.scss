@@ -1,0 +1,23 @@
+.footer__copyright {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $secondtextcolor;
+  max-height: 124px;
+  padding-top: $mainpadding;
+  padding-bottom: $mainpadding;
+  max-width: $main-blok-width;
+  margin: 0 auto;
+}
+
+@include breakpoint('footer__copyright', $tablet) {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  max-width: 768px;
+}
+@include breakpoint('footer__copyright', $mobile) {
+  max-width: 300px;
+  font-size: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

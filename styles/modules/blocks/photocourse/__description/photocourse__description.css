@@ -1,0 +1,23 @@
+.photocourse__description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 469px;
+  padding-top: 60px;
+  padding-bottom: 170px;
+  grid-column: 1;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .photocourse__description {
+    grid-row: 2;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .photocourse__description {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}/*# sourceMappingURL=photocourse__description.css.map */

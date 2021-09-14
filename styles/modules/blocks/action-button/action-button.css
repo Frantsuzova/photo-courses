@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.action-button {
+  width: 228px;
+  height: 49px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  /* Параметры рамки */
+  padding: 10px;
+  /* Поля вокруг текста */
+  border-radius: 50px 50px 50px 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.action-button:hover {
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1023px) {
+  .action-button {
+    background-color: #FFF;
+  }
+}/*# sourceMappingURL=action-button.css.map */

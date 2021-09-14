@@ -1,0 +1,13 @@
+.header__close {
+  cursor: pointer;
+  margin: 0;
+}
+
+@include breakpoint('header__close', $mobile) {
+  padding: 30px;
+  background-color: $headercolor;
+  position: absolute;
+  top: -83px;
+  right: 0;
+}
+

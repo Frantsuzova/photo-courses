@@ -1,0 +1,6 @@
+.cameracourse__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: 1;
+}/*# sourceMappingURL=cameracourse__info.css.map */

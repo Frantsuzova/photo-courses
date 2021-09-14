@@ -1,0 +1,10 @@
+.odercourse{
+  padding: 0 $mainpadding $mainpadding $mainpadding;
+}
+
+@include breakpoint('odercourse', $tablet) {
+  padding: 40px 40px 0 40px;
+}
+@include breakpoint('odercourse', $mobile) {
+  padding: 0 $mobilepadding 0 $mobilepadding;
+}

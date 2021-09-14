@@ -1,0 +1,25 @@
+@media screen and (max-width: 1023px){
+  .header__mobile_active {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    justify-content: space-between;
+    align-content: center;
+    background-color: $headercolor;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 21px $menupadding 21px $menupadding;
+  }
+}
+
+@include breakpoint('header__mobile_active', $mobile) {
+  top: 70px;
+  flex-direction: column;
+
+  justify-content: center;
+  padding: 0 $menupadding 0 $menupadding;
+}

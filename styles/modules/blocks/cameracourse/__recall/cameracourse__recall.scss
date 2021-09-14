@@ -1,0 +1,12 @@
+.cameracourse__recall {
+  font-size: 43px;
+  line-height: 43px;
+  font-weight: 400;
+  padding-bottom: 60px;
+  margin: 0;
+}
+
+@include breakpoint('cameracourse__recall', $mobile) {
+  font-size: 24px;
+  line-height: 26px;
+}

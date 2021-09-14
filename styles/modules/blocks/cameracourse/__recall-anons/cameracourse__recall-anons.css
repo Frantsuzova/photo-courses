@@ -1,0 +1,23 @@
+.cameracourse__recall-anons {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-transform: uppercase;
+  padding: 0 0 0 4px;
+  margin: 0;
+  grid-column: 1;
+  display: flex;
+  align-self: end;
+}
+
+@media screen and (max-width: 1023px) {
+  .cameracourse__recall-anons {
+    grid-row: 5;
+  }
+}
+@media screen and (max-width: 400px) {
+  .cameracourse__recall-anons {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}/*# sourceMappingURL=cameracourse__recall-anons.css.map */

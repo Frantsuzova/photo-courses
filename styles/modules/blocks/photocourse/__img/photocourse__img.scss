@@ -1,0 +1,21 @@
+.photocourse__img {
+  box-sizing: border-box;
+  max-width: 642px;
+  width: 100%;
+  display: flex;
+}
+
+@include breakpoint('photocourse__img', $midledesktop) {
+  width: 70%;
+}
+
+@include breakpoint('photocourse__img', $tablet) {
+  width: 100%;
+  grid-row: 3;
+  align-self: center;
+  margin-bottom: 60px;
+}
+@include breakpoint('photocourse__img', $mobile) {
+  max-width: 280px;
+  margin-bottom: 30px;
+}

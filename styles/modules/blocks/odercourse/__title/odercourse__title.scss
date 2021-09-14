@@ -1,0 +1,20 @@
+.odercourse__title {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  grid-column: 1;
+  margin: 0;
+  max-width: 549px;
+  padding-top: $mainpadding;
+}
+
+@include breakpoint('odercourse__title', $tablet) {
+  padding-top: 40px;
+}
+@include breakpoint('odercourse__title', $mobile) {
+  max-width: 280px;
+  font-size: 32px;
+  line-height: 38px;
+  padding-top: 30px;
+}
+

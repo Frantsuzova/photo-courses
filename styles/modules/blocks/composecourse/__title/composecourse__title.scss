@@ -1,0 +1,23 @@
+.composecourse__title {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  max-width: 403px;
+  padding-bottom: 100px;
+  grid-column: 1;
+  padding-top: $mainpadding;
+}
+
+@include breakpoint('composecourse__title', $tablet) {
+  padding-top: $tabletpadding;
+  padding-bottom: 0;
+  grid-row: 2;
+}
+@include breakpoint('composecourse__title', $mobile) {
+  grid-row: 3;
+  font-size: 30px;
+  line-height: 38px;
+  max-width: 280px;
+  padding-top: 30px;
+  padding-bottom: 0;
+}

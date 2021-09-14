@@ -1,0 +1,14 @@
+.cameracourse__recall-author {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .cameracourse__recall-author {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}/*# sourceMappingURL=cameracourse__recall-author.css.map */

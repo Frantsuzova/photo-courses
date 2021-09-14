@@ -1,0 +1,12 @@
+.composecourse__description {
+  padding-bottom: 198px;
+  grid-column: 1;
+  margin: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .composecourse__description {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}/*# sourceMappingURL=composecourse__description.css.map */

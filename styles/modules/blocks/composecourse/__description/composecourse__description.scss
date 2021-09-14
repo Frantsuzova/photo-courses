@@ -1,0 +1,10 @@
+.composecourse__description {
+  padding-bottom: 198px;
+  grid-column: 1;
+  margin: 0;
+}
+
+@include breakpoint('composecourse__description', $tablet) {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}

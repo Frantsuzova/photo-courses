@@ -1,0 +1,20 @@
+.odercourse__content {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 312px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1023px) {
+  .odercourse__content {
+    grid-template-columns: 1fr;
+    max-width: 768px;
+    grid-column-gap: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .odercourse__content {
+    max-width: 300px;
+  }
+}/*# sourceMappingURL=odercourse__content.css.map */

@@ -1,0 +1,25 @@
+.action__submit-button {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: $maintextcolor;
+  background-color: $maincolor;
+  width: 205px;
+  height: 50px;
+  box-sizing: border-box;
+  border-bottom: 2px solid #000000;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  margin: 0;
+}
+
+.action__submit-button:hover {
+  font-weight: 500;
+}
+
+@include breakpoint('action__submit-button', $mobile) {
+  width: 107px;
+}

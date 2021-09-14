@@ -1,0 +1,12 @@
+.odercourse__line {
+  display: none;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid  #000;
+}
+
+@include breakpoint('odercourse__line', $mobile) {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+}

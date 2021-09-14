@@ -1,0 +1,21 @@
+.cameracourse__img {
+  grid-row: 1/3;
+  max-width: 642px;
+}
+
+@media screen and (max-width: 1023px) {
+  .cameracourse__img {
+    width: 656px;
+    max-height: 688px;
+    grid-row: 4;
+    padding-bottom: 60px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 400px) {
+  .cameracourse__img {
+    width: 50vw;
+    height: 50vw;
+    max-height: 258px;
+  }
+}/*# sourceMappingURL=cameracourse__img.css.map */

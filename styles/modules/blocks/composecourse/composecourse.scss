@@ -1,0 +1,12 @@
+.composecourse {
+  background-color: $composecolor;
+  padding: 0 $mainpadding 0 $mainpadding;
+}
+
+@include breakpoint('composecourse', $tablet) {
+  padding: 0 36px 0 36px;
+}
+
+@include breakpoint('composecourse', $mobile) {
+  padding: 0 $mobilepadding 0 $mobilepadding;
+}

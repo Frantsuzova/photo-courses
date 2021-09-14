@@ -1,0 +1,12 @@
+.action {
+  background-color: $actioncolor;
+  padding: 0 $mainpadding 0 $mainpadding;
+}
+
+@include breakpoint('action', $tablet) {
+  padding: 40px 40px 0 40px;
+}
+
+@include breakpoint('action', $mobile) {
+  padding: 0 20px 0 20px;
+}

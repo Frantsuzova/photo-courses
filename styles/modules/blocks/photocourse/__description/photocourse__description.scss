@@ -1,0 +1,20 @@
+.photocourse__description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  max-width: 469px;
+  padding-top: 60px;
+  padding-bottom: 170px;
+  grid-column: 1;
+  margin: 0;
+}
+
+@include breakpoint('photocourse__description', $tablet) {
+  grid-row: 2;
+  padding-bottom: 0;
+}
+
+@include breakpoint('photocourse__description', $mobile) {
+  font-size: 14px;
+  line-height: 18px;
+}

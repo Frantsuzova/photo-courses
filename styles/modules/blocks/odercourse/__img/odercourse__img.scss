@@ -1,0 +1,17 @@
+.odercourse__img {
+  grid-column: 1;
+  margin: 0;
+  padding-top: 106px;
+  width: 100%;
+}
+
+@include breakpoint('odercourse__img', $midledesktop) {
+  width: 70%;
+}
+@include breakpoint('odercourse__img', $tablet) {
+  width: 100%;
+  padding-top: 60px;
+}
+@include breakpoint('odercourse__img', $mobile) {
+  max-width: 280px;
+}

@@ -1,0 +1,10 @@
+.composecourse__main-structure {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 86px;
+}
+
+@include breakpoint('composecourse__main-structure', $tablet) {
+  grid-template-columns: 1fr;
+}
+
