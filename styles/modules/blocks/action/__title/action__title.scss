@@ -3,7 +3,12 @@
   font-size: 120px;
   line-height: 120px;
   margin: 0;
+  padding-top: $mainpadding;
   color: $secondtextcolor;
+}
+
+.action__title:last-child {
+  padding-top: 0;
 }
 
 @include breakpoint('action__title', $tablet) {
