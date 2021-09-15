@@ -2,7 +2,6 @@
   box-sizing: border-box;
   max-width: 642px;
   width: 100%;
-  justify-self: end;
 }
 
 @include breakpoint('composecourse__img', $midledesktop) {

@@ -1,8 +1,7 @@
 .composecourse__main-structure {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
   grid-column-gap: 86px;
-  justify-self: start;
 }
 
 @include breakpoint('composecourse__main-structure', $tablet) {

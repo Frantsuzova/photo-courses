@@ -177,9 +177,10 @@
 }
 .photocourse__content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
   padding-top: 50px;
   padding-bottom: 50px;
+  grid-column-gap: 76px;
   max-width: 1440px;
   margin: 0 auto;
   box-sizing: border-box;
@@ -208,7 +209,7 @@
   grid-column: 1;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 690px) {
   .photocourse__title {
     font-size: 80px;
     line-height: 80px;
@@ -352,7 +353,6 @@
   box-sizing: border-box;
   max-width: 642px;
   width: 100%;
-  justify-self: end;
 }
 
 @media (max-width: 1300px) {
@@ -373,7 +373,9 @@
 }
 .photocourse__img {
   box-sizing: border-box;
+  max-width: 642px;
   width: 100%;
+  display: flex;
   justify-self: end;
 }
 
@@ -468,9 +470,8 @@
 }
 .composecourse__main-structure {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 50% 50%;
   grid-column-gap: 86px;
-  justify-self: start;
 }
 
 @media (max-width: 1023px) {
@@ -930,7 +931,7 @@
   max-width: 129px;
   max-height: 95px;
   padding-right: 50px;
-  padding-top: 60px;
+  padding-top: 10px;
 }
 
 @media (max-width: 1023px) {
@@ -943,12 +944,7 @@
   font-size: 120px;
   line-height: 120px;
   margin: 0;
-  padding-top: 50px;
   color: #FFFFFF;
-}
-
-.action__title:last-child {
-  padding-top: 0;
 }
 
 @media (max-width: 1023px) {

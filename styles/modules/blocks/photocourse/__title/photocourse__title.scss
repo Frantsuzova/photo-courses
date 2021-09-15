@@ -6,13 +6,10 @@
   grid-column: 1;
 }
 
-@include breakpoint('photocourse__title', $midledesktop) {
-  font-size: 80px;
-  line-height: 80px;
-}
 
 @include breakpoint('photocourse__title', $smalltablet) {
-
+  font-size: 80px;
+  line-height: 80px;
 }
 
 @include breakpoint('photocourse__title', $mobile) {

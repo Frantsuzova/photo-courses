@@ -3,7 +3,7 @@
   max-width: 129px;
   max-height: 95px;
   padding-right: $mainpadding;
-  padding-top: 60px;
+  padding-top: 10px;
 }
 
 @include breakpoint('action__img', $tablet) {

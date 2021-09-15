@@ -1,7 +1,8 @@
 .photocourse__img {
   box-sizing: border-box;
+  max-width: 642px;
   width: 100%;
-  justify-self: end;
+  display: flex;
 }
 
 @include breakpoint('photocourse__img', $midledesktop) {
