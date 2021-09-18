@@ -12,9 +12,11 @@
   border-bottom: 1px solid $maincolor;
   padding-bottom: 60px;
   grid-row: 6;
+  max-width: 526px;
 }
 
 @include breakpoint('cameracourse__recall-info-left', $mobile) {
+  max-width: 280px;
   padding-top: 60px;
   padding-bottom: 30px;
 }

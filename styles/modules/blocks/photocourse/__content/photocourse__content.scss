@@ -10,9 +10,10 @@
 
 @include breakpoint('photocourse__content', $tablet) {
   grid-template-columns: 1fr;
-  max-width: 768px;
+  max-width: 788px;
   padding-top: 40px;
   padding-bottom: 40px;
+  justify-self: center;
 }
 @include breakpoint('photocourse__content', $mobile) {
   max-width: 300px;

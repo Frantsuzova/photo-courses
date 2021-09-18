@@ -1,10 +1,11 @@
 .header {
+  justify-self: center;
   background: $headercolor;
   padding: 0 $mainpadding 0 $mainpadding;
 }
 
 @include breakpoint('header', $tablet) {
-  padding: 0 36px 0 36px;
+  padding: 0 40px 0 40px;
 }
 
 @include breakpoint('header', $mobile) {

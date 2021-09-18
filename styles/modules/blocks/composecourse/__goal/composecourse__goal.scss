@@ -5,9 +5,23 @@
   line-height: 28px;
   margin: 0;
   max-width: 400px;
+
+}
+
+@include breakpoint('composecourse__goal', $tablet) {
+  padding-bottom: 20px;
+}
+@include breakpoint('composecourse__goal:last-child', $tablet) {
+  margin-bottom: 60px;
 }
 
 @include breakpoint('composecourse__goal', $mobile) {
   max-width: 278px;
-}
+  font-size: 14px;
+  line-height: 18px;
+  padding-bottom: 36px;
 
+}
+@include breakpoint('composecourse__goal:last-child', $mobile) {
+  margin-bottom: 0;
+}

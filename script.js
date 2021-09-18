@@ -13,7 +13,10 @@ closeMobileMenu.addEventListener('click', function () {
   mobileMenu.classList.remove("header__mobile_active");
 });
 
-const subButton = document.getElementById("email-submit");
+let subButton = document.getElementById("email-submit");
 subButton.addEventListener("click", () => {
   subButton.value = "Спасибо";
+  alert("Clicked!");
+  return false;
 });
+

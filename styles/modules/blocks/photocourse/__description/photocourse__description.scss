@@ -10,11 +10,12 @@
 }
 
 @include breakpoint('photocourse__description', $tablet) {
-  grid-row: 2;
-  padding-bottom: 0;
+  grid-row: 3;
+  padding-bottom: 60px;
 }
 
 @include breakpoint('photocourse__description', $mobile) {
   font-size: 14px;
   line-height: 18px;
+  padding-bottom: 30px;
 }

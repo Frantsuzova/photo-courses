@@ -4,7 +4,7 @@
 }
 
 @include breakpoint('photocourse', $tablet) {
-  padding: 0 36px 0 36px;
+  padding: 0 40px 0 40px;
 }
 @include breakpoint('photocourse', $mobile) {
   padding: 0 $mobilepadding 0 $mobilepadding;
