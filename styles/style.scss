@@ -9,7 +9,7 @@
 @import "./modules/blocks/header/__links/header__links.scss";
 @import "./modules/blocks/header/__links-item/header__links-item.scss";
 @import "./modules/blocks/header/__links-decoration/header__links-decoration.scss";
-@import "./modules/blocks/header/__menu/header__menu.css";
+@import "./modules/blocks/header/__menu/header__menu.scss";
 @import "./modules/blocks/header/__arrow/hearer__arrow.scss";
 @import "./modules/blocks/header/__icon-menu/header__icon-menu.scss";
 @import "./modules/blocks/photocourse/photocourse.scss";
@@ -19,9 +19,9 @@
 @import "./modules/blocks/photocourse/__button/photocourse__button.scss";
 @import "./modules/blocks/img/img.scss";
 @import "./modules/blocks/photocourse/__info/photocourse__info.scss";
+@import "./modules/blocks/composecourse/__button/composecourse__button.scss";
 @import "./modules/blocks/composecourse/__goal/composecourse__goal.scss";
 @import "./modules/blocks/composecourse/composecourse.scss";
-@import "./modules/blocks/composecourse/__line/composecourse__line.scss";
 @import "./modules/blocks/composecourse/__content/composecourse__content.scss";
 @import "./modules/blocks/composecourse/__description/composecourse__description.scss";
 @import "./modules/blocks/composecourse/__img/composecourse__img.scss";
@@ -33,7 +33,6 @@
 @import "./modules/blocks/composecourse/__main-structure/composecourse__main-structure.scss";
 @import "./modules/blocks/composecourse/__ideas/composecourse__ideas.scss";
 @import "./modules/blocks/cameracourse/cameracourse.scss";
-@import "./modules/blocks/cameracourse/__line/cameracourse__line.scss";
 @import "./modules/blocks/cameracourse/__content/cameracourse__content.scss";
 @import "./modules/blocks/cameracourse/__img/cameracourse__img.scss";
 @import "./modules/blocks/cameracourse/__info/cameracourse__info.scss";
@@ -53,7 +52,6 @@
 @import "./modules/blocks/odercourse/__info/odercourse__info.scss";
 @import "./modules/blocks/odercourse/__text/odercourse__text.scss";
 @import "./modules/blocks/action/action.scss";
-@import "./modules/blocks/action/__line/action__line.scss";
 @import "./modules/blocks/action/__content/action__content.scss";
 @import "./modules/blocks/action/__img/action__img.scss";
 @import "./modules/blocks/action/__title/action__title.scss";

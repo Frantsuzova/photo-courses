@@ -1,28 +1,34 @@
 .action__title {
-  font-weight: 400;
   font-size: 120px;
   line-height: 120px;
+  font-weight: 400;
   margin: 0;
   padding-top: $mainpadding;
   color: $secondtextcolor;
 }
-
 .action__title:last-child {
-  padding-top: 0;
+  padding-top: 0px;
 }
 
 @include breakpoint('action__title', $tablet) {
   font-size: 100px;
   line-height: 100px;
+  padding-top: $tabletpadding;
 }
-
-
 @include breakpoint('action__title', $smalltablet) {
-  font-size: 80px;
-  line-height: 80px;
+  font-size: 90px;
+  line-height: 90px;
 }
 
 @include breakpoint('action__title', $mobile) {
   font-size: 48px;
   line-height: 50px;
+  padding-top: 20px;
+}
+
+@include breakpoint('action__title:last-child', $tablet) {
+  padding-top: 10px;
+}
+@include breakpoint('action__title:last-child', $mobile) {
+  padding-top: 0px;
 }

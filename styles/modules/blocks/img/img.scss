@@ -6,9 +6,10 @@
 
 @include breakpoint('img', $tablet) {
   grid-column: 1;
-  padding-top: 60px;
+  margin-top: 60px;
 }
 
 @include breakpoint('img', $mobile) {
   max-width: 280px;
+
 }

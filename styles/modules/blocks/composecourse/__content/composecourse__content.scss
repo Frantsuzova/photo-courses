@@ -11,9 +11,10 @@
 @include breakpoint('composecourse__content', $tablet) {
   max-width: 768px;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 0;
 }
 
 @include breakpoint('composecourse__content', $mobile) {
+
   max-width: 300px;
 }
