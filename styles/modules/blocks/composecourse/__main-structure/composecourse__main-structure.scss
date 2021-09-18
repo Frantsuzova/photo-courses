@@ -1,7 +1,7 @@
 .composecourse__main-structure {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 86px;
+  grid-column-gap: 65px;
   justify-self: start;
 }
 
@@ -9,3 +9,7 @@
   grid-template-columns: 1fr;
 }
 
+@include breakpoint('composecourse__main-structure', $mobile) {
+  padding-top: 20px;
+  border-top: 1px solid #000;
+}

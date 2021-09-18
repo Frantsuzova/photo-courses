@@ -3,16 +3,20 @@
   grid-row: 3;
   padding-top: 180px;
   max-width: 642px;
+  justify-self: end;
 }
 
 @include breakpoint('cameracourse__recall-info-right', $desktop) {
   max-width: 400px;
 }
 @include breakpoint('cameracourse__recall-info-right', $tablet) {
+  max-width: 526px;
   grid-column: 1;
   padding-top: 60px;
   grid-row: 7;
+  justify-self: start;
 }
 @include breakpoint('cameracourse__recall-info-right', $mobile) {
+  max-width: 280px;
   padding-top: 30px;
 }

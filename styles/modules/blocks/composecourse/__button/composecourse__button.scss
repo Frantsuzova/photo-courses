@@ -1,0 +1,10 @@
+.composecourse__button {
+  background-color: #FFFFFF;
+  margin-top: 70px;
+}
+@include breakpoint('composecourse__button', $tablet) {
+  margin-top: 60px;
+}
+@include breakpoint('composecourse__button', $mobile) {
+  margin-top: 0;
+}

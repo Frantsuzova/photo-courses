@@ -4,6 +4,7 @@
   grid-column-gap: 312px;
   max-width: $main-blok-width;
   margin: 0 auto;
+  padding-top: $mainpadding;
 }
 
 @include breakpoint('odercourse__content', $midledesktop) {
@@ -11,10 +12,12 @@
 }
 
 @include breakpoint('odercourse__content', $tablet) {
+  padding-top: $tabletpadding;
   grid-template-columns: 1fr;
   max-width: 768px;
   grid-column-gap: 0;
 }
 @include breakpoint('odercourse__content', $mobile) {
+
   max-width: 300px;
 }

@@ -1,26 +1,35 @@
 .cameracourse__img {
+  margin: 0;
   grid-row:1/3;
-  max-width: 642px;
+  width: 642px;
+  height: 832px;
+  justify-self: end;
 }
 
 @include breakpoint('cameracourse__img', $midledesktop) {
-  width: 70%;
+  justify-self: center;
+  width: 90%;
+  height: 90%;
+
 }
 
 @include breakpoint('cameracourse__img', $tablet) {
-  width: 656px;
-  max-height: 688px;
+  justify-self: start;
+
+  max-height: 656px;
+  max-width: 688px;
   grid-row:4;
   padding-bottom: 60px;
   object-fit: cover;
+
 }
 
 @include breakpoint('cameracourse__img', $smalltablet) {
-  max-width: 400px;
+
+  justify-self: center;
 }
 
 @include breakpoint('cameracourse__img', $mobile) {
-  width: 50vw;
-  height: 50vw;
-  max-height: 258px;
+  width: 280px;
+  height: 268px;
 }
