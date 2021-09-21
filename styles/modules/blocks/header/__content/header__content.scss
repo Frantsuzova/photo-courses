@@ -12,3 +12,8 @@
   max-width: 688px;
   margin: 0;
 }
+
+@include breakpoint('header__content', 950px) {
+  max-width: 600px;
+  margin: 0;
+}

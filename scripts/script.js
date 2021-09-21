@@ -7,16 +7,19 @@ const menuBtn = document.querySelector(".header__icon-menu");
 
 menuBtn.addEventListener("click", () => {
   mobileMenu.classList.toggle("header__mobile_active");
+  menuBtn.classList.remove("header__icon-menu");
+  menuBtn.classList.toggle("header__icon-menu_latent");
 });
 
 closeMobileMenu.addEventListener('click', function () {
   mobileMenu.classList.remove("header__mobile_active");
+  menuBtn.classList.toggle("header__icon-menu");
+  menuBtn.classList.remove("header__icon-menu_latent");
 });
 
 let subButton = document.getElementById("email-submit");
-subButton.addEventListener("click", () => {
+subButton.addEventListener("click", (event) => {
   subButton.value = "Спасибо";
-  alert("Clicked!");
-  return false;
+  event.preventDefault();
 });
 

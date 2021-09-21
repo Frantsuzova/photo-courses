@@ -13,8 +13,17 @@
 <body class="page">
   <header class="header">
     <div class="header__content">
+
+      <lord-icon class="header__camera-icon" src="./scripts/camera-icon.json" trigger="hover" delay="4"
+        colors="primary:#ffffff,secondary:#ffffff">
+      </lord-icon>
+      <!--
       <img class="hearer__arrow" alt="стрелочка логотипа" src="images/arrow-upper.svg">
-      <img class="header__icon-menu" alt="иконка разворота меню" src="images/menu.svg">
+      -->
+      <button type="button" class="header__icon-menu">
+
+      </button>
+
       <nav class="header__menu ">
         <div class="header__links">
           <a class="header__links-decoration" href="#">Композиция</a>
@@ -29,7 +38,10 @@
         <a class="header__links-decoration" href="#">Камера</a>
         <a class="header__links-decoration" href="#">Поиск заказов</a>
       </nav>
-      <img class="header__close" src="images/close.svg" alt="закрыть">
+      <button type="button" class="header__close">
+
+      </button>
+
     </div>
   </header>
   <main>
@@ -160,7 +172,8 @@
       2021 &#169; Anna Chizhik.
     </p>
   </footer>
-  <script src="./script.js"></script>
+  <script src="./scripts/lord-icon-2.1.0.js"></script>
+  <script src="./scripts/script.js"></script>
 </body>
 
 </html>
