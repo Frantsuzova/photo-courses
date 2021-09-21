@@ -16,10 +16,17 @@
   }
 }
 
-@include breakpoint('header__mobile_active', $mobile) {
-  top: 70px;
-  flex-direction: column;
+@include breakpoint('header__mobile_active', $tablet) {
 
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 0 $menupadding 0 $menupadding;
+
+}
+
+@include breakpoint('header__mobile_active', $mobile) {
+  top: 60px;
+  justify-content: center;
+  padding: 0 $menupadding 20px $menupadding;
+
 }

@@ -5,7 +5,9 @@
 @import "./modules/blocks/page/page.scss";
 @import "./modules/blocks/action-button/action-button.scss";
 @import "./modules/blocks/header/header.scss";
+@import "./modules/blocks/header/__icon-menu/_latent/header__icon-menu_latent.scss";
 @import "./modules/blocks/header/__content/header__content.scss";
+@import "./modules/blocks/header/__camera-icon/header__camera-icon";
 @import "./modules/blocks/header/__links/header__links.scss";
 @import "./modules/blocks/header/__links-item/header__links-item.scss";
 @import "./modules/blocks/header/__links-decoration/header__links-decoration.scss";
@@ -64,3 +66,4 @@
 @import "./modules/blocks/header/__mobile/_active/header__mobile_active.scss";
 @import "./modules/blocks/header/__layout/header__layout.scss";
 @import "./modules/blocks/header/__close/header__close.scss";
+

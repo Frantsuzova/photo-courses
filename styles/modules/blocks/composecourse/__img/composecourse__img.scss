@@ -11,7 +11,7 @@
   height: 585px;
 }
 @include breakpoint('composecourse__img', $tablet) {
-  justify-self: center;
+  justify-self: start;
   grid-row:3;
   height: 688px;
   width: 685px;
