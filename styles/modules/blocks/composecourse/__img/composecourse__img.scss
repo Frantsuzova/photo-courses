@@ -1,17 +1,29 @@
 .composecourse__img {
   box-sizing: border-box;
+  max-height: 685px;
   max-width: 642px;
-  width: 100%;
+  justify-self: end;
+  object-fit: cover;
 }
 
 @include breakpoint('composecourse__img', $midledesktop) {
-  width: 70%;
+  width: 542px;
+  height: 585px;
 }
 @include breakpoint('composecourse__img', $tablet) {
-  width: 100%;
+  justify-self: start;
   grid-row:3;
+  height: 688px;
+  width: 685px;
+
+}
+@include breakpoint('composecourse__img', $smalltablet) {
+  width: 494px;
+  height: 547px;
+
 }
 @include breakpoint('composecourse__img', $mobile) {
-  grid-row:4;
+  width: 280px;
+  height: 278px;
 }
 

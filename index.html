@@ -13,8 +13,17 @@
 <body class="page">
   <header class="header">
     <div class="header__content">
+
+      <lord-icon class="header__camera-icon" src="scripts/camera-icon.json" trigger="hover" delay="4"
+        colors="primary:#ffffff,secondary:#ffffff">
+      </lord-icon>
+      <!--
       <img class="hearer__arrow" alt="стрелочка логотипа" src="images/arrow-upper.svg">
-      <img class="header__icon-menu" alt="иконка разворота меню" src="images/menu.svg">
+      -->
+      <button type="button" class="header__icon-menu">
+
+      </button>
+
       <nav class="header__menu ">
         <div class="header__links">
           <a class="header__links-decoration" href="#">Композиция</a>
@@ -29,20 +38,23 @@
         <a class="header__links-decoration" href="#">Камера</a>
         <a class="header__links-decoration" href="#">Поиск заказов</a>
       </nav>
-      <img class="header__close" src="images/close.svg" alt="закрыть">
+      <button type="button" class="header__close">
+
+      </button>
+
     </div>
   </header>
   <main>
     <!--секция Курс по фотографии-->
     <section class="photocourse">
       <div class="photocourse__content">
-        <div class="photocourse__title">Курс по фотографии</div>
+        <h1 class="photocourse__title">Курс по фотографии</h1>
         <p class="photocourse__description">
           Фотография в природных условиях, уроки по композиции и по пользованию камерой.
         </p>
-        <div class="photocourse__button action-button">
+        <button class="photocourse__button action-button" type="button">
           Подробнее
-        </div>
+        </button>
         <img class="img photocourse__img" alt="фото с лесом" src="./images/1.jpg">
       </div>
     </section>
@@ -50,21 +62,23 @@
     <section class="composecourse">
       <div class="composecourse__content">
         <div class="composecourse__main-structure">
-          <div class="composecourse__line"></div>
-          <div class="course-type">Композиция</div>
-          <div class="composecourse__title">Изучите композицию</div>
+          <p class="course-type">Композиция</p>
+          <h2 class="composecourse__title">Изучите композицию</h2>
           <img class="img composecourse__img" alt="фото с лесом и дорогой" src="./images/2.jpg">
           <div class="composecourse__description">
+
             <p class="composecourse__goal">
               Вы изучите гармоничное размещение всех элементов изображения на <b>снимке</b>.
             </p>
             <p class="composecourse__goal">
               Изучите композицию интуитивную и какие-то определённые законы.
             </p>
+
+            <button class="composecourse__button action-button" type="button">
+              Записаться!
+            </button>
           </div>
-          <div class="action-button">
-            Записаться!
-          </div>
+
         </div>
         <div class="composecourse__ideas">
           <p class="composecourse__intro">
@@ -85,31 +99,30 @@
     <!--секция Настройка Съемка Обработка-->
     <section class="cameracourse">
       <div class="cameracourse__content">
-        <div class="cameracourse__line"></div>
         <div class="cameracourse__info">
           <div>
-            <div class="course-type">Камера</div>
+            <p class="course-type">Камера</p>
             <div class="cameracourse__title">
-              <div class="cameracourse__text">Настройка</div>
-              <div class="cameracourse__text">Съемка</div>
-              <div class="cameracourse__text">Обработка</div>
+              <h2 class="cameracourse__text">Настройка</h2>
+              <h2 class="cameracourse__text">Съемка</h2>
+              <h2 class="cameracourse__text">Обработка</h2>
             </div>
           </div>
         </div>
-        <div class="cameracourse__recall-anons">отзывы про часть о камерах:</div>
+        <p class="cameracourse__recall-anons">отзывы про часть о камерах:</p>
         <img class="img cameracourse__img" alt="фото с лесом и дорогой" src="./images/3.jpg">
         <div class="cameracourse__recall-info-left">
-          <p class="cameracourse__recall">
+          <blockquote class="cameracourse__recall">
             на этом курсе я научился пользоватся камерой, как настоящий профессионал!
-          </p>
-          <p class="cameracourse__recall-author">Питер, водитель.</p>
+          </blockquote>
+          <p class="cameracourse__recall-author">Петр, водитель.</p>
           <p class="cameracourse__recall-network">@piter123</p>
         </div>
         <div class="cameracourse__recall-info-right">
-          <p class="cameracourse__recall">
+          <blockquote class="cameracourse__recall">
             супер крутой курс! на части про фотики я стал разбираться в предназначении кнопок
-          </p>
-          <p class="cameracourse__recall-author">Джон, спортсмен.</p>
+          </blockquote>
+          <p class="cameracourse__recall-author">Никита, спортсмен.</p>
           <p class="cameracourse__recall-network">@john_sport</p>
         </div>
       </div>
@@ -117,9 +130,8 @@
     <!--секция Научим находить заказы!-->
     <section class="odercourse">
       <div class="odercourse__content">
-        <div class="odercourse__line"></div>
-        <div class="course-type">поиск заказов</div>
-        <h1 class="odercourse__title">Научим находить заказы!</h1>
+        <p class="odercourse__line">поиск заказов</p>
+        <h2 class="odercourse__title">Научим находить заказы!</h2>
         <img class="odercourse__img" alt="фото с деревом и небом" src="./images/4.jpg">
 
         <div class="odercourse__info">
@@ -127,9 +139,9 @@
             Мы научим вас искать заказы на всяких фриланс биржах, а когда вы сделаете крутое портфолио, мы поможем найти
             постоянную работу.
           </p>
-          <div class="action-button">
+          <button class="action-button" type="button">
             Записаться!
-          </div>
+          </button>
         </div>
       </div>
     </section>
@@ -139,10 +151,11 @@
       <div class="action__content">
         <img class="action__img" alt="стрелка" src="./images/arrow-right.svg">
         <div>
-          <div class="action__line"></div>
-          <div class="action__title">Записаться!</div>
-          <div class="action__title">Сейчас!</div>
-          <form id="email" method="post" onsubmit="return false">
+          <div class="action__line">
+            <h2 class="action__title">Записаться!</h2>
+            <h2 class="action__title">Сейчас!</h2>
+          </div>
+          <form name="email" id="email" method="get">
             <div class="action__submitform">
               <input class="action__email" type="text" placeholder="Ваша почта" value="" id="useremail"
                 name="useremail">
@@ -156,10 +169,11 @@
   </main>
   <footer class="footer">
     <p class="footer__copyright">
-      2021 Photo-lessons.
+      2021 &#169; Anna Chizhik.
     </p>
   </footer>
-  <script src="../script.js"></script>
+  <script src="scripts/lord-icon-2.1.0.js"></script>
+  <script src="scripts/script.js"></script>
 </body>
 
 </html>

@@ -1,9 +1,8 @@
 .photocourse__content {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
   padding-top: $mainpadding;
   padding-bottom: $mainpadding;
-  grid-column-gap: 76px;
   max-width: $main-blok-width;
   margin: 0 auto;
   box-sizing: border-box;
@@ -11,9 +10,10 @@
 
 @include breakpoint('photocourse__content', $tablet) {
   grid-template-columns: 1fr;
-  max-width: 768px;
+  max-width: 788px;
   padding-top: 40px;
   padding-bottom: 40px;
+  justify-self: center;
 }
 @include breakpoint('photocourse__content', $mobile) {
   max-width: 300px;

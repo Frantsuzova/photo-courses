@@ -1,7 +1,14 @@
 .header__icon-menu {
+  display: flex;
+  background-color: transparent;
   display: none;
-
+  border: 0;
+  outline: 0;
+  background-image: url("../../../../../images/menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   cursor: pointer;
+  padding: 40px;
   transition: all 1s ease-out;
 }
 

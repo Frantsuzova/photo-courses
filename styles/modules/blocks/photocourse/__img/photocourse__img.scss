@@ -1,21 +1,30 @@
 .photocourse__img {
   box-sizing: border-box;
   max-width: 642px;
-  width: 100%;
-  display: flex;
+  max-height: 555px;
+  justify-self: end;
+  margin: 0;
 }
 
 @include breakpoint('photocourse__img', $midledesktop) {
-  width: 70%;
+  max-width: 542px;
+  max-height: 455px;
 }
 
 @include breakpoint('photocourse__img', $tablet) {
-  width: 100%;
-  grid-row: 3;
-  align-self: center;
-  margin-bottom: 60px;
+  grid-row: 2;
+  justify-self: start;
+  width: 688px;
+  height: 594px;
 }
+
+@include breakpoint('photocourse__img', $smalltablet) {
+  max-width: 542px;
+  max-height: 455px;
+}
+
 @include breakpoint('photocourse__img', $mobile) {
-  max-width: 280px;
-  margin-bottom: 30px;
+  justify-self: center;
+  width: 280px;
+  height: 242px;
 }

@@ -13,4 +13,11 @@
 
 @include breakpoint('composecourse__intro', $mobile) {
   padding-bottom: 14px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+@include breakpoint('composecourse__intro:last-child', $tablet) {
+  border-bottom: 0;
+  padding-bottom: 0;
 }
